@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks Coffee Company</title>
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Starbucks" />
+    <meta property="og:title" content="Starbucks Coffee Canada" />
+    <meta property="og:description" content="starbucks makes good qulity of cup of coffee for our customers." />
+    <meta property="og:image" content="./images/starbucks_seo.jpg" />
+    <meta property="og:url" content="https://starbucks.ca" />
+
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:site" content="Starbucks" />
+    <meta property="twitter:title" content="Starbucks Coffee Canada" />
+    <meta property="twitter:description" content="starbucks makes good qulity of cup of coffee for our customers." />
+    <meta property="twitter:image" content="./images/starbucks_seo.jpg" />
+    <meta property="twitter:url" content="https://starbucks.ca" />
+
+
+    <link rel="icon" href="./favicon.png" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+
+    <!-- GSAP & ScrollToPlugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js" integrity="sha512-WFN04846sdKMIP5LKNphMaWzU7YpMyCU245etK3g/2ARYbPK9Ub18eG+ljU96qKRCWh+quCY7yefSmlkQw1ANQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js" integrity="sha512-H6cPm97FAsgIKmlBA4s774vqoN24V5gSQL4yBTDOY2su2DeXZVhQPxFK4P6GPdnZqM9fg1G3cMv5wD7e6cFLZQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollToPlugin.min.js" integrity="sha512-agNfXmEo6F+qcj3WGryaRvl9X9wLMQORbTt5ACS9YVqzKDMzhRxY+xjgO45HCLm61OwHWR1Oblp4QSw/SGh9SA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/swiper@6.8.4/swiper-bundle.min.js"></script>
+
+    <script defer src="./js/youtube.js"></script>
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js" integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="./js/main.js"></script>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="inner">
+
+            <a href="/" class="logo">
+                <img src="./images/starbucks_logo.png" alt="STARBUCKS_LOGO">
+            </a>
+
+            <div class="sub-menu">
+                <ul class="menu">
+                    <li>
+                        <a href="/signin">Sign In</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">My Starbucks</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Customer Service & Ideas</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)"><span class="material-icons">location_on</span>Find a Store</a>
+                    </li>
+                </ul>
+                <div class="search">
+                    <input type="text">
+                    <span class="material-icons">search</span>
+                </div>
+            </div>
+
+            <ul class="main-menu">
+                <li class="item">
+                    <div class="item__name">COFFEE</div>
+                    <div class="item__contents">
+                        <div class="contents__menu">
+                            <ul class="inner">
+
+                                <li>
+                                    <h4>Coffee</h4>
+                                    <ul>
+                                        <li>Starbucks Coffee Bean</li>
+                                        <li>Starbucks Via</li>
+                                        <li>Starbucks Origami</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>Espresso Drinks</h4>
+                                    <ul>
+                                        <li>Doppio</li>
+                                        <li>Macchiato</li>
+                                        <li>Cappuccino</li>
+                                        <li>Latte</li>
+                                        <li>Mocha</li>
+                                        <li>Ristretto bianco</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>Coffee Story</h4>
+                                    <ul>
+                                        <li>Starbucks Roast Spectrum</li>
+                                        <li>The Best Arabica Coffee</li>
+                                        <li>Clover Brewed® Coffees System</li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <h4>The Best Ways To Enjoy Drinking Coffee More</h4>
+                                    <ul>
+                                        <li>Coffee Press</li>
+                                        <li>Pourover Coffee</li>
+                                        <li>Iced Pourover</li>
+                                        <li>Coffee Maker</li>
+                                        <li>Coffee Reserve</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="contents__texture">
+                            <div class="inner">
+                                <h4>Find my coffee style</h4>
+                                <p>Starbucks helps to find your cofffee style</p>
+                                <h4>The way how people enjoy their best coffee in starbucks </h4>
+                                <p>Enjoy colorful tast of starbucks coffees through lots of ways</p>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">STORE</div>
+                    <div class="item__contents">
+                        <div class="contents__menu"></div>
+                        <div class="contents__texture"></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">RESPONSIBILITY</div>
+                    <div class="item__contents">
+                        <div class="contents__menu"></div>
+                        <div class="contents__texture"></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">MY STARBUCKS REWARDS</div>
+                    <div class="item__contents">
+                        <div class="contents__menu"></div>
+                        <div class="contents__texture"></div>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="item__name">WHAT'S NEW</div>
+                    <div class="item__contents">
+                        <div class="contents__menu"></div>
+                        <div class="contents__texture"></div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+        <div class="badges">
+            <div class="badge">
+                <img src="./images/badge1.jpg" alt="Badge">
+            </div>
+            <div class="badge">
+                <img src="./images/badge2.jpg" alt="Badge">
+            </div>
+        </div>
+    </header>
+
+<!-- VISUAL -->
+    <section class="visual">
+        <div class="inner">
+<div class="title fade-in">
+    <img src="./images/visual_title.png" alt="STARBUCKS DELIGHTFUL START TO THE YEARS">
+<a href="javascript:void(0)" class="btn btn--brown">Read More</a>
+</div>
+<div class='fade-in'>
+    <img src="./images/visual_cup1.png" alt="NEW OATMEAL LATTE" class="cup1 image"/>
+<img src="./images/visual_cup1_text.png" alt="OATMEAL LATTE" class="cup1 text"/>
+</div>
+<div class='fade-in'>
+    <img src="./images/visual_cup2.png" alt="NEW STARBUCKS CARAMEL CRUMBLE MOCHA" class="cup2 image"/>
+<img src="./images/visual_cup2_text.png" alt="CARAMEL CRUMBLE MOCHA" class='cup2 text'/>
+</div>
+<div class='fade-in'>
+    <img src="./images/visual_spoon.png" alt="Spoon" class='spoon'/>
+</div>
+</div>
+</section>
+
+<!-- NOTICE -->
+<section class="notice">
+    <div class="notice-line">
+        <div class="bg-left"></div>
+        <div class="bg-right"></div>
+        <div class="inner">
+
+            <div class="inner__left">
+                <h2>Notice</h2>
+                <div class= "swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0)">Notice 1</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0)">Notice 2</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0)">Notice 3</a>
+                        </div>
+                        <div class="swiper-slide">
+                            <a href="javascript:void(0)">Notice 4</a>
+                        </div>
+                    </div>
+                </div>
+                <a href="javascript:void(0)" class="notice-line__more">
+                    <div class="material-icons">add_circle</div>
+                </a>
+            </div>
+            <div class="inner__right">
+                <h2>Starbucks Promotion</h2>
+                <div class="toggle-promotion">
+                    <div class="material-icons">upload</div>
+                  </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="promotion">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="./images/promotion_slide1.jpg" alt="2021 new year"/>
+                    <div class="promo-info"></div>
+                <a href="javascript:void(0)" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promotion_slide2.jpg" alt="2021 new year"/>
+                <a href="javascript:void(0)" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promotion_slide3.jpg" alt="2021 new year"/>
+                <a href="javascript:void(0)" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promotion_slide4.jpg" alt="2021 new year"/>
+                <a href="javascript:void(0)" class="btn">Read More</a>
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/promotion_slide5.jpg" alt="2021 new year"/>
+                <a href="javascript:void(0)" class="btn">Read More</a>
+                </div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-prev">
+          <div class="material-icons">arrow_back</div>
+        </div>
+        <div class="swiper-next">
+          <div class="material-icons">arrow_forward</div>
+        </div>
+    </div>
+
+</section>
+
+<!-- REWARDS -->
+<section class="rewards">
+    <div class="bg-left"></div>
+    <div class="bg-right"></div>
+    <div class="inner">
+        <div class="reward-info">
+            <h2>Starbucks' special benefits, my starbucks rewards</h2>
+            Are you a Starbucks member? Check your own rewards by logging in.<br>
+            Not a Starbucks member? Sign up and enjoy the rewards benefits.<br>
+            <br>
+            After registering as a member, purchase a Starbucks Card e-Gift as a “gift to me” and register conveniently!
+            Special benefits of My Starbucks Rewards when you register your card! We give you a birthday coupon.</div>
+<div class="btn-group">
+    <div class="btn btn--reverse sign-up">Sign-up</div>
+    <div class="btn sign-in">Sign-in</div>
+    <div class="btn gift">e-Gift</div>
+</div>
+    </div>
+</section>
+
+
+<!-- YOUTUBE VIDEO -->
+<section class="youtube">
+    <div class="youtube__area">
+        <div id="player"></div>
+    </div>
+    <div class="youtube__cover"></div>
+    <div class="inner">
+
+        <img src="./images/floating1.png" alt="Icon" class="floating floating1" />
+        <img src="./images/floating2.png" alt="Icon" class="floating floating2" />
+    </div>
+</section>
+
+
+<!-- SEASON PRODUCT -->
+
+<section class="season-product scroll-spy">
+    <div class="inner">
+
+        <img src="./images/floating3.png" alt="Icon" class="floating floating3" />
+        <img src="./images/season_product_image.png" alt="" class="product back-to-position to-right delay-0" />
+
+        <div class="text-group">
+            <div class="title back-to-position to-right delay-1">The Iced Coffee flavor you love,
+                <br> from the comfort of home.</div>
+            <div class="discription back-to-position to-right delay-2">Starbucks Iced Coffee Blend is the same Brewed Iced Coffee you already love in our stores.
+                <br> Roasted to accentuate its full flavored taste when chilled,
+                <br> this blend of premium beans from Latin America and East Africa comes alive cold.</div>
+        <div class="more back-to-position to-left delay-3">
+            <a href="javascript:void(0)" class="btn">Read More</a>
+        </div>
+        </div>
+
+    </div>
+</section>
+
+
+<!-- RESERVE COFFEE -->
+    <section class="reserve-coffee scroll-spy">
+        <div class="inner">
+            <img src="./images/reserve_logo.png" alt="" class="reserve-logo back-to-position to-right delay-0" />
+
+            <div class="text-group">
+                <div class="reserve-title back-to-position to-right delay-1">Starbucks Reserve™</div>
+                <div class="reserve-description back-to-position to-right delay-1">Starbucks Reserve™ is a program that introduces you to the rare,<br>
+                     exotic, and special premium coffee we have never seen before.</div>
+                <div class="more back-to-position to-right delay-2">
+                    <a href="javascript:void(0)" class="btn btn--gold">Read More</a>
+                </div>
+            </div>
+
+            <img src="./images/reserve_image.png" alt="" class="product back-to-position to-left delay-3">
+        </div>
+    </section>
+
+
+    <!-- PICK YOUR FAVORITE -->
+    <section class="pick-your-favorite scroll-spy">
+<div class="inner">
+        <div class="text-group">
+            <img src="./images/favorite_text1.png" alt="" class="title back-to-position to-right delay-0" />
+            <div class="description back-to-position to-right delay-1">
+                <div class="disc-title">Enjoy a variety of menu at Starbucks.</div>
+                <div><br> The best choice drink to experience the uniqueness of Starbucks <br>
+                    Food that goes perfectly with Starbucks coffee <br>
+                    Products that add value through various trials and designs</div>
+            </div>
+            <div class="more back-to-position to-right delay-2">
+                <a href="javascript:void(0)" class="btn btn--white">Read More</a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- RESERVE STORE -->
+<section class="reserve-store">
+        <div class="inner">
+            <div class="medal">
+                <div class="front">
+                    <img src="./images/reserve_store_medal_front.png" alt="">
+                </div>
+                <div class="back">
+                    <img src="./images/reserve_store_medal_back.png" alt="">
+                    <a href="javascript:void(0)" class="btn">
+                        Store information
+                    </a>
+                </div>
+            </div>
+
+        </div>
+</section>
+
+<!-- FIND THE STORE -->
+<section class="find-store scroll-spy">
+    <div class="inner">
+
+        <img src="./images/find_store_texture1.png" alt="" class="texture1">
+        <img src="./images/find_store_texture2.png" alt="" class="texture2">
+        <img src="./images/find_store_picture1.jpg" alt="" class="picture picture1 back-to-position to-right delay-0">
+        <img src="./images/find_store_picture2.jpg" alt="" class="picture picture2 back-to-position to-right delay-1">
+
+        <div class="text-group">
+            <div class="title back-to-position to-left delay-0"> Store Locator: Starbucks Coffee Company</div>
+            <div class="description back-to-position to-left delay-1">Our Starbucks store locator will help you find locations near you where you can enjoy great beverages and free wi-fi.
+                <br> Find a Starbucks now.</div>
+            <div class="more back-to-position to-left delay-2">
+                <a href="javascript:void(0)" class="btn">Find a store</a>
+            </div>
+        </div>
+
+
+    </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer>
+    <div class="inner">
+
+        <ul class="menu">
+            <li><a href="javascript:void(0)" class="green">Privacy policy</a></li>
+            <li><a href="javascript:void(0)">management policy</a></li>
+            <li><a href="javascript:void(0)">Website Terms of Use</a></li>
+            <li><a href="javascript:void(0)">Location Information Terms of Use</a></li>
+            <li><a href="javascript:void(0)">Starbucks Card Terms and Conditions</a></li>
+            <li><a href="javascript:void(0)">Ethical Management Hotline</a></li>
+        </ul>
+
+        <div class="btn-group">
+            <a href="javascript:void(0)" class="btn btn--white">location</a>
+            <a href="javascript:void(0)" class="btn btn--white">New branch offer</a>
+            <a href="javascript:void(0)" class="btn btn--white">Site map</a>
+        </div>
+
+        <div class="info">
+            <span>Phone: 647-369-6723</span>
+            <span>Name: Sunghwan Kwon</span>
+            <span>E-mail: sunghwan.ian.kwon@gamil.com</span>
+            <span>Date: 2022 Jan.6th</span>
+        </div>
+
+        <p class="copyright">
+            &copy; <span class="this-year"></span> Starbucks Coffee Company. All Rights Reserved.
+        </p>
+        <img src="./images/starbucks_logo_only_text.png" alt="" class="logo" />
+
+    </div>
+
+</footer>
+
+<div id="to-top">
+    <div class="material-icons">arrow_upward</div>
+</div>
+</body>
+
+</html>
